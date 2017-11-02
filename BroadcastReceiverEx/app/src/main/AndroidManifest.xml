@@ -1,0 +1,30 @@
+<manifest package="net.npaka.broadcastreceiverex"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+       <activity
+            android:name=".BroadcastReceiverEx"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".TextReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="net.npaka.broadcastreceiverex.VIEW" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

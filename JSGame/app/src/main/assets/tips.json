@@ -1,0 +1,46 @@
+{
+    "error_tips_table": [{
+        "cond": {
+            "title": "enchant.js が読み込まれていないようです。",
+            "content": "enchant.js を読み込むには、index.htmlの head タグの中に以下のタグを貼り付けましょう。[code]<script src='http://coderun.9leap.net/static/enchant.js-latest/enchant.js'></script>[/code] ダッシュボードに戻って「はじめてのenchant.js」から好きなプロジェクトを Fork してもOKです。"
+        },
+        "title": "enchant.js が読み込まれていないようです。"
+    }, {
+        "cond": {
+            "title": "構文エラーが起きているようです。",
+            "content": "enchant.js は読み込まれていますが、main.js の中で構文エラーが起きているか、enchant(); が実行されていないようです。"
+        },
+        "title": "構文エラーが起きているようです。"
+    }, {
+        "cond": {
+            "title": "new Game(); に失敗しているようです。",
+            "content": "enchant.js を読み込むには、index.htmlの head タグの中に以下のタグを貼り付けましょう。[code]<script src='http://coderun.9leap.net/static/enchant.js-latest/enchant.js'></script>[/code] ダッシュボードに戻って「はじめてのenchant.js」から好きなプロジェクトを Fork してもOKです。"
+        },
+        "title": "new Game(); に失敗しているようです。"
+    }, {
+        "cond": {
+            "title": "addChild を忘れていませんか?",
+            "content": "new Sprite() や new Label() などで生成したオブジェクトを表示するには、以下のように ゲームオブジェクトのルートシーンに[code]game.rootScene.addChild(sprite);[/code]"
+        },
+        "title": "addChild を忘れていませんか?"
+    }],
+    "progress_tips_table": [{
+        "cond": "hello.x!=10",
+        "title": "課題1",
+        "content": "hello.xを10以外に変化させてみよう![code]hello.x=50;[/code]書き換えたら「Run」を押そう!"
+    }, {
+        "cond": "hello.y!=150",
+        "title": "課題2",
+        "content": "<p>hello.yに150以外の値を入れてみましょう</p>[code]hello.y=50;[/code]<p>hello.yを変更すると文字の位置を変化させることができます</p>"
+    }, {
+        "cond": "hello.text!='Hello,Bear'",
+        "title": "課題3",
+        "content": "<p>今度は</p>[code]hello.text='Hello enchant.js';[/code]のようにしてカスタマイズしてみよう!"
+    }],
+    "default_tips_table": [{
+        "title": "おめでとうございます",
+        "content": "<img src=http://junk.wise9.jp/code9/clear.gif width=160 ><BR>enchant.jsビギナーになりました!<BR>他のチュートリアルにも挑戦してみよう!"
+    }
+
+    ]
+}

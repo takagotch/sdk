@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LiveWallpaperEx</string>
+    <string name="description">ライブ壁紙のサンプルです。</string>
+    <string name="author">npaka.net</string>
+</resources>
